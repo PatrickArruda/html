@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-width: 100vh;
+    background-color: rgb(191, 235, 235);
+}
+header{ 
+    background-color: rgb(9, 43, 43);
+    text-align: center;
+    
+    margin:0px;
+    padding: 0px;
+
+
+}
+header > h1 { 
+    padding-top: 30px;
+    font-variant: small-caps;
+    font: normal 70pt arial;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8vw;
+}
+header > p {
+    padding-bottom: 50px;
+    padding-top: 0px;
+    font:normal 50pt arial;
+    font-family: cursive;
+    font-size: 4vw;
+
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.9em;
+    font-size:2.5vw ;
+    
+   
+}
+section.normal{
+    background-color: rgb(160, 235, 235);
+    width: 100%;
+    padding: 50px;
+    border-radius: 5px;
+    
+}
+section.imagem{
+    background-color: rgb(67, 143, 143);
+    width: 10%;
+    padding: 50px;
+    border-radius: 5px;
+}
+section{
+    padding: 30px;
+    margin: 20px;
+}
+section.normal > p {
+ background-color:rgb(160, 235, 239);
+ width: 100%;
+ width: 33%;
+}
+section.imagem > p {
+    background-color: rgb(67, 143, 143);
+    width: 10%;
+    width: 33%;
+}
+.img01 {
+    background-image:("..;/exrc-cazuza/czz.jpeg");
+}
